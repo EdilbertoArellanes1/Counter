@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- Declaracion de XML-->
+
+<resources> <!-- Se inicia la etiqueta donde se definen los recursos -->
+
+    <!-- Se defiene variables de tipo color que se utilizaran en la app -->
+
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+</resources> <!-- Se finaliza la etiqueta de recursos-->

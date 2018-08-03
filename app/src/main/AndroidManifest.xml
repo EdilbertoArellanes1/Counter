@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.juangabrielgomila.counter"> <!--- Se inicia el manifiesto -->
+
+    <!--- Se inicia el contenido de la aplicacion -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"> <!---  Se Crean los componentes Iniciales dentro de la etiqueta -->
+        <activity android:name=".MainActivity"> <!--- Se inicia la actividad  -->
+
+            <intent-filter> <!--- Agrega un nombre de categoría a un filtro de intención.  -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" /> <!--- describen ciertas propiedades especiales de una actividad.-->
+            </intent-filter> <!--- Se termina el intento  -->
+
+        </activity> <!---  Se termina la actividad -->
+
+    </application> <!---  Se Termina el contenido de la aplicacion -->
+
+</manifest> <!--- Se termina el archivo manifiesto-->
